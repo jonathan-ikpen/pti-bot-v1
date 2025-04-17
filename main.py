@@ -54,8 +54,8 @@ def main():
                 context = llmaIndexAgent.llma_index_context
                 answer = llmaIndexAgent.llma_index_answer
 
-                print(f"Context: {context}\n Answer: {answer}")
-                # print(f"Answer: {response}")
+                # print(f"Context: {context}\n Answer: {answer}")
+                print(f"Answer: {response}")
 
                 st.markdown(answer)
             # Add assistant response to chat history
