@@ -70,9 +70,9 @@ To set up the PTI Chatbot, follow these steps:
 ## Usage
 
 To run the chatbot, execute the following command:
-    ```bash
-    streamlit run main.py
-    ```
+```bash
+streamlit run main.py
+```
 
 Open your web browser and navigate to `http://localhost:8501` to interact with the chatbot.
 
