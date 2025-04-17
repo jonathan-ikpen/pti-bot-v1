@@ -70,7 +70,6 @@ To set up the PTI Chatbot, follow these steps:
 ## Usage
 
 To run the chatbot, execute the following command:
-
     ```bash
     streamlit run main.py
     ```
@@ -88,4 +87,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgments
 
 - Thanks to the developers of the libraries and frameworks used in this project.
-- Special thanks to the Petroleum Training Institute for providing the necessary resources.
+- Thanks to the Petroleum Training Institute for the data (website - `pti.edu.ng`).
