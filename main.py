@@ -64,6 +64,7 @@ def main():
 
 
 def hide_streamlit_watermark():
+    st.html("<style> ._container_gzau3_1, ._viewerBadge_nim44_23, ._profileContainer_gzau3_53 { display: none !important; } </style>")
     return "<script> const elementsToHide = [...document.querySelectorAll('._container_gzau3_1, ._viewerBadge_nim44_23, ._profileContainer_gzau3_53')]; elementsToHide.forEach(element => { element.style.display = 'none'; }); </script>"
 
 
