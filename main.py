@@ -20,6 +20,7 @@ def main():
     st.logo("assets/pti_logo_bg.jpeg")
     st.sidebar.write("Hi, Welcome 👋")
     st.html("<title>PTI chatbot</title>")
+    st.html(hide_streamlit_watermark())
 
     st.title("PTI Chatbot")
     st.caption("A chatbot for the Petroleum Training Institute")
@@ -60,6 +61,10 @@ def main():
                 st.markdown(answer)
             # Add assistant response to chat history
         st.session_state.messages.append({"role": "assistant", "content": answer})
+
+
+def hide_streamlit_watermark():
+    return "<script> const elementsToHide = [...document.querySelectorAll('._container_gzau3_1, ._viewerBadge_nim44_23, ._profileContainer_gzau3_53')]; elementsToHide.forEach(element => { element.style.display = 'none'; }); </script>"
 
 
 
